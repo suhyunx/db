@@ -25,6 +25,6 @@ else
 %>
 <h1>시험점수 <%= inputScores %>점</h1><br><br>
 <h1><%= grade %>학점입니다.</h1><br>
-<a href ="PJM.html">시험점수입력</a>
+<a href ="score_main.html">시험점수입력</a>
 </body>
 </html>
