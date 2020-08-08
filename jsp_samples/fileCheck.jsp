@@ -4,7 +4,7 @@
 <html>
 <head>
 <title>JSP Oracle</title>
-<meta charset="UTF-8"
+<meta charset="UTF-8">
 </head>
 <%
 request.setCharacterEncoding("euc-kr");
