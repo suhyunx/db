@@ -18,11 +18,11 @@ public class cafe {
 		{
 			System.out.print("원하시는 메뉴번호를 입력하세요: ");
 			int num = scan.nextInt();
-				if(num==1) 
-				{
-					System.out.println("  아메리카노를 주문하셨습니다");
+			if(num==1) 
+			{
+				System.out.println("  아메리카노를 주문하셨습니다");
 		        	total+=2500; //total=total+2500
-				}			   
+			}			   
 		        else if(num==2)
 		        {
 		        	System.out.println("  카페라떼를 주문하셨습니다");
@@ -47,7 +47,7 @@ public class cafe {
 		        else
 		        {
 		        	System.out.println("잘못된 주문입니다.");
-				}
+			}
 		}
 		scan.close();
 	}
